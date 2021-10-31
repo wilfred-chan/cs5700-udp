@@ -4,7 +4,7 @@ from socket import *
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 clientSocket.settimeout(1)
 serverHostname = 'localhost'  # for local test
-# serveHostname = ''
+# serverHostname = 'sample.domain.com'
 
 numberOfLoss = 0
 RTTs = []
